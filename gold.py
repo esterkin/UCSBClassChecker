@@ -92,6 +92,7 @@ class Gold(object):
             if (item not in dupe_free_search_params) and (item != blank):
                     dupe_free_search_params.append(item)
         print(dupe_free_search_params)
+        return dupe_free_search_params
 
     def search(self, search_params):
         SEARCH_URL = 'https://my.sa.ucsb.edu/gold/CriteriaFindCourses.aspx'
